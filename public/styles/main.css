@@ -1,0 +1,97 @@
+body{
+    background-color:#fff0f5;
+}
+.yk-text{
+   color:white;
+}
+.yk-btn{
+    background-color: #090933;
+}
+.yk-title{
+    color:#090933;
+    font-weight:bolder;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+hr{
+    color:#090933;
+    border-style:solid;
+    opacity: 1;
+}
+
+.yk-foot{
+    color:#090933 !important; 
+}
+.yk-form{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+}
+.yk-card{
+    border:solid;
+}
+
+.yk-submit-btn{
+    justify-content:right;
+}
+
+.yk-delete-button{
+    display:flex;
+    justify-content: right;
+}
+.del-btn{
+    background-color: #090933;
+    border-color: #090933;
+}
+.edit-btn{
+    background-color: #090933;
+    border-color: #090933;
+}
+.yk-img{
+    /* background-color:white; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    align-items: center;
+    
+}
+.yk-img {
+    background: linear-gradient(180deg, #ab0b6d, #f5f3f7, #ba83e9);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 26s ease infinite;
+    -moz-animation: AnimationName 26s ease infinite;
+    animation: AnimationName 26s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.yk-pngs{
+    height: 15rem;
+    width: 15rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.yk-front-cover{
+    height:500px;
+}
+h1{
+    color:rgb(92, 3, 73);
+    font-size: 5rem;
+}
